@@ -26,10 +26,7 @@ int main (){
     scanf("%i",&ano);
     Sleep(1000);
     system("cls");
-    if(mesAtual<=mes){
-        if(diaAtual<dia)
-                ano++;
-    }
+
     printf("\n%s voce tem %i anos\n",name,idade=anoAtual-ano);
     return 0;
 }
