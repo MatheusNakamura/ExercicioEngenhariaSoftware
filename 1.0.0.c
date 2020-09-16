@@ -24,7 +24,7 @@ int main (){
     printf("\n\n");
     printf("Digite o ano em que nasceu: ");
     scanf("%i",&ano);
-    //Sleep(1000);
+    Sleep(1000);
     system("cls");
     if(mesAtual<=mes){
         if(diaAtual<dia)
